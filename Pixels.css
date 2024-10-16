@@ -140,7 +140,7 @@ span{
     background-color: var(--bgColor);
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
 }
 
 #about .logo img{
@@ -155,9 +155,9 @@ span{
 
 }
 
-#about #pcentred{
+#pcentred{
     text-align: center;
-    margin-bottom: 10px;
+    color: #757575;
 }
 
 .prices{
@@ -165,8 +165,6 @@ span{
     justify-content: space-around;
     align-items: center;
     background-color: var(--bgColor);
-    padding-top: var(--padding);
-    padding: 40px 0;
 }
 
 .price{
@@ -181,7 +179,7 @@ span{
 .price:hover{
     background-color: #225324;
     color: var(--WhiteColor);
-    scale: 1.1;
+    scale: 1.03;
     border-radius: 10px;
 }
 
@@ -196,6 +194,164 @@ span{
     column-gap: 10px;
 }
 
+#contact{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    background: #3fbe433d;
+    height: 50vh;
+    position: relative;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form{
+    background-color: var(--bgColor);
+    height: 70vh;
+    width: 60vw;
+    position: absolute;
+    top: 20vh;
+    left: 20vw;
+    border-radius: 10px;
+    display: flex;
+}
+
+.contact-card{
+    background-color:#225324;
+    width: 40%;
+    padding: 30px 30px;
+    height: 90%;
+    margin: 20px 0 0 20px;
+    border-radius: 30px;
+    color: var(--WhiteColor);
+}
+
+.infos{
+    display: flex;
+    row-gap: 60px;
+    flex-direction: column;
+}
+
+.contact-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.informa{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+
+.inputs{
+    padding: 50px 50px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: var(--bgColor);
+}
+
+.first-entry{
+    display: flex;
+    column-gap: 90px;
+}
+
+input, textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    background-color: var(--bgColor);
+}
+
+textarea{
+    height: 150px;
+    border-color: var(--PrimaryColor);
+}
+
+.pied{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 var(--padding);
+    text-align: center;
+    margin-bottom: 160px;
+}
+
+.other ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.other ul li a{
+    text-decoration: none;
+    padding: 20px;
+    color: var(--FontColor);
+}
 
 
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
 
+.colored-footer{
+    background-color: #263238;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0 0 30px;
+    color: var(--WhiteColor);
+    height: 300px;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.icons-footer img{
+    padding: 0 10px 10px 10px;
+}
+
+.linked{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 70px;
+}
+
+.linked ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.linked ul li a{
+    text-decoration: none;
+    color: rgb(198, 198, 198);
+    
+}
+
+.support{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.colored-footer input{
+    height: 40px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #e3e3e3;
+}
