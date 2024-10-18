@@ -41,6 +41,7 @@ main{
     border-radius: 10px;
     backdrop-filter: blur(600px);
     background-color: var(--bgColor);
+    position: relative;
 }
 
 input{
@@ -69,9 +70,6 @@ button:hover{
     cursor: pointer;
 }
 
-
-
-
 .sign-up {
     height: 60%;
     width: 40%;
@@ -83,4 +81,17 @@ button:hover{
     border-radius: 10px;
     backdrop-filter: blur(600px);
     background-color: var(--bgColor);
+    position: relative;
+}
+
+#back-to-home{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+#back{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
 }
