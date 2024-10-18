@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    padding: 0;
+}
+
+:root{
+    --PrimaryColor: #4CAF4F;
+    --FontColor: rgb(34, 34, 34);
+    --bgColor: #F5F7FA;
+    --padding: 8%;
+    --padding2: 4%;
+    --WhiteColor: white;
+}
+
+html{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, hsla(165, 89%, 31%, 1) 0%, hsla(161, 46%, 49%, 1) 100%);
+}
+
+.login {
+    height: 60%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 60px var(--padding);
+    justify-content: center;
+    align-items: start;
+    row-gap: 5px;
+    border-radius: 10px;
+    backdrop-filter: blur(600px);
+    background-color: var(--bgColor);
+}
+
+input{
+    outline: none;
+    border: 1px solid var(--PrimaryColor);
+    width: 300px;
+    height: 35px;
+    padding: 0 15px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+button{
+    width: 120px;
+    height: 33px;
+    border-radius: 12px;
+    border: 1px solid var(--PrimaryColor);
+    background-color: var(--PrimaryColor);
+    color: var(--WhiteColor);
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: var(--WhiteColor);
+    color: var(--PrimaryColor);
+    cursor: pointer;
+}
+
+
+
+
+.sign-up {
+    height: 60%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px var(--padding);
+    justify-content: center;
+    row-gap: 5px;
+    border-radius: 10px;
+    backdrop-filter: blur(600px);
+    background-color: var(--bgColor);
+}
